@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-
-
     <string name="init">Initializing</string>
 
 
@@ -187,7 +184,6 @@
     <string name="directory">Directory</string>
     <string name="directories">Directories</string>
     <string name="loading">Loading</string>
-    <string name="please_wait">Please wait…</string>
     <string name="nomedia">No media files found, please transfer files to your device or adjust your preferences.</string>
     <string name="mediafiles">Media files</string>
     <string name="notavailable">not available</string>
@@ -215,7 +211,6 @@
     <string name="error_not_compatible">Sorry, your device is currently not supported by this version of VLC for Android™.</string>
     <string name="error_problem">Sorry, VLC for Android had a problem loading and had to close.</string>
     <string name="error_message_is">The error message is (please mention this when debugging):\n</string>
-
     <string name="colon" translatable="false">:</string>
     <string name="plus" translatable="false">+</string>
     <string name="minus" translatable="false">&#8722;</string>
@@ -239,7 +234,6 @@
     <string name="preferences">Preferences</string>
     <string name="library_prefs_category">Media library</string>
     <string name="directories_summary">Select directories to include in the media library</string>
-    <string name="add_custom_path">Add a custom path</string>
     <string name="add_custom_path_description">Enter additional custom directory to scan:</string>
     <string name="remove_custom_path">Remove custom path</string>
     <string name="main_prefs_category">Main</string>
@@ -295,15 +289,12 @@
     <string name="play">Play</string>
     <string name="play_from_start">Play from start</string>
     <string name="play_as_audio">Play as audio</string>
-    <string name="play_as_video">Play as video</string>
     <string name="append">Append</string>
     <string name="play_all">Play all</string>
     <string name="append_all">Append all</string>
     <string name="last_playlist">Last playlist</string>
     <string name="delete">Delete</string>
     <string name="set_song">Set as ringtone</string>
-
-
     <string name="ringtone_set">\'%1$s\' was set as the ringtone.</string>
     <string name="ringtone_error">An error occurred while setting the ringtone.</string>
     <string name="pause">Pause</string>
@@ -316,8 +307,6 @@
     <string name="songs">Songs</string>
 
     <string name="app_name" translatable="false">FFPlayer</string>
-
-
     <string name="other">Other</string>
     <string name="filebrowser_title">Select media to play</string>
     <string name="sortby">Sort by…</string>
@@ -328,6 +317,9 @@
     <string name="refresh">Refresh</string>
     <string name="parent_folder">Up to parent folder</string>
     <string name="thumbnail">Thumbnail</string>
+    <string name="play_as_video">Play as video</string>
+    <string name="add_custom_path">Add custom path</string>
+
     <plurals name="songs_quantity">
         <item quantity="one">1 song</item>
         <item quantity="other">%d songs</item>

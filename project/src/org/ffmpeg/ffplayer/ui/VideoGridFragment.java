@@ -237,7 +237,7 @@ public class VideoGridFragment extends SherlockGridFragment implements ISortable
 
     protected void playVideo(int position, boolean fromStart) {
         Media item = (Media) getListAdapter().getItem(position);
-        VideoPlayerActivity.start(getActivity(), item.getLocation(), fromStart);
+//        VideoPlayerActivity.start(getActivity(), item.getLocation(), fromStart);
     }
 
     protected void playAudio(int position) {

@@ -131,15 +131,15 @@ public class MediaLibrary {
 
                 boolean valid = false;
                 switch (mode) {
-                    case AudioBrowserFragment.MODE_ARTIST:
-                        valid = name.equals(item.getArtist()) && (name2 == null || name2.equals(item.getAlbum()));
-                        break;
-                    case AudioBrowserFragment.MODE_ALBUM:
-                        valid = name.equals(item.getAlbum());
-                        break;
-                    case AudioBrowserFragment.MODE_GENRE:
-                        valid = name.equals(item.getGenre()) && (name2 == null || name2.equals(item.getAlbum()));
-                        break;
+//                    case AudioBrowserFragment.MODE_ARTIST:
+//                        valid = name.equals(item.getArtist()) && (name2 == null || name2.equals(item.getAlbum()));
+//                        break;
+//                    case AudioBrowserFragment.MODE_ALBUM:
+//                        valid = name.equals(item.getAlbum());
+//                        break;
+//                    case AudioBrowserFragment.MODE_GENRE:
+//                        valid = name.equals(item.getGenre()) && (name2 == null || name2.equals(item.getAlbum()));
+//                        break;
                     default:
                         break;
                 }
